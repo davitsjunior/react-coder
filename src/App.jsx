@@ -12,6 +12,9 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./comunicação/DiretaPai";
+import IndiretaPai from "./comunicação/IndiretaPai";
+import Input from "./components/formulario/Input";
 
 export default () => (
     <div className="App">
@@ -20,7 +23,19 @@ export default () => (
 
         <div className="Cards">
 
-            <Card titulo="#08 - Exibição Condicional I" color="#87CEEB">
+            <Card titulo="#11 - Componente Controlado" color="#8B4513">
+              <Input/>
+            </Card>
+
+            <Card titulo="#10 - Comunicação Indireta" color="#006400">
+              <IndiretaPai/>
+            </Card>
+
+            <Card titulo="#09 - Comunicação Direta" color="#B22222">
+              <DiretaPai/>
+            </Card>
+
+            <Card titulo="#08 - Exibição Condicional" color="#87CEEB">
                <ParOuImpar
                 numero={7}
                />
