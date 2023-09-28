@@ -15,6 +15,8 @@ import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./comunicação/DiretaPai";
 import IndiretaPai from "./comunicação/IndiretaPai";
 import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 export default () => (
     <div className="App">
@@ -22,6 +24,14 @@ export default () => (
         <p>COD3R</p>
 
         <div className="Cards">
+
+            <Card titulo="#13 - Desafio MegaSena" color="#2F4F4F">
+              <Mega qtde={8}/>
+            </Card>
+            
+            <Card titulo="#12 - Contador" color="#FF0000">
+              <Contador numeroInicial={10}/>
+            </Card>
 
             <Card titulo="#11 - Componente Controlado" color="#8B4513">
               <Input/>

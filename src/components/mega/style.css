@@ -1,0 +1,17 @@
+.gerar {
+    margin: 15px;
+    height: auto;
+    width: auto;
+    background-color: #028113;
+    color: #fff;
+    font-size: 1.2rem;;
+}
+
+.Mega label{
+    margin-right: 10px;
+}
+
+.Mega input{
+    font-size: 1.2rem;
+    width: 50px;
+}
